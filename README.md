@@ -5,7 +5,7 @@ usage
 sudo ./clean.sh
 make.sh
 
-# if you want to compile it for aarch64 devices then uncomment 4,5,6 th lines in tracer/src/CMakeLists.txt
+if you want to compile it for aarch64 devices then uncomment 4,5,6 th lines in tracer/src/CMakeLists.txt
 
 references:
 https://github.com/AlexeyAB/darknet
