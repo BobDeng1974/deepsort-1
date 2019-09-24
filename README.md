@@ -1,10 +1,10 @@
 # deepsort
 deepsort using hog feature extractor and darknet
-
+<pre>
 usage 
 sudo ./clean.sh
 make.sh
-
+</pre>
 if you want to compile it for aarch64 devices then uncomment 4,5,6 th lines in tracer/src/CMakeLists.txt
 
 references:
