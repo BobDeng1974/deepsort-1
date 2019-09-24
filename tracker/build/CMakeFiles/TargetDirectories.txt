@@ -1,0 +1,3 @@
+/home/ixtiyor/Documents/deepsort-master/tracker/build/CMakeFiles/rebuild_cache.dir
+/home/ixtiyor/Documents/deepsort-master/tracker/build/CMakeFiles/deepsort.dir
+/home/ixtiyor/Documents/deepsort-master/tracker/build/CMakeFiles/edit_cache.dir
