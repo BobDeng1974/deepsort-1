@@ -1,1 +1,0 @@
-please download darknet from https://github.com/AlexeyAB/darknet and put it here
