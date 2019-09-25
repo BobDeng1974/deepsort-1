@@ -2,8 +2,9 @@
 deepsort using hog feature extractor and darknet
 <pre>
 usage 
-sudo ./clean.sh
-make.sh
+1. download darknet from https://github.com/AlexeyAB/darknet and put in darknet-master directory
+2. sudo ./clean.sh
+3. make.sh
 </pre>
 if you want to compile it for aarch64 devices then uncomment 4,5,6 th lines in tracer/src/CMakeLists.txt
 <pre>
