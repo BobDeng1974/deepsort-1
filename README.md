@@ -9,7 +9,7 @@ usage
 3. make_ordinary.sh
 4. download weight files from https://github.com/AlexeyAB/darknet
 </pre>
-if you want to compile it for aarch64 devices then uncomment 4,5,6 th lines in tracer/src/CMakeLists.txt
+if you want to compile it for aarch64 devices then go with make_jetson.sh
 <pre>
 references:
 https://github.com/AlexeyAB/darknet
