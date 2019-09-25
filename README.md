@@ -5,7 +5,6 @@ usage
 0.1 chmod a+x make_ordinary.sh
 0.2 chmod a+x make_jetson.sh
 0.3 chmod a+x clean.sh
-1. download darknet from https://github.com/AlexeyAB/darknet and put in darknet-master directory
 2. sudo ./clean.sh
 3. make_ordinary.sh
 </pre>
