@@ -69,14 +69,21 @@ std::vector<std::string> objects_names_from_file(std::string const filename) {
 int main(int argc, char *argv[])
 {
     std::string  names_file = "./data/coco.names";
-    std::string  cfg_file = "./yolov3.cfg";
+    std::string  cfg_file = "/yolov3.cfg";
     std::string  weights_file = "./yolov3.weights";
-    std::string filename;
+    std::string filename = "test.mp4";
 
-    filename = "test.mp4";
+    if(argc > 4){ // weights , cfg, names, videopath 
+        names_file = argv[1];
+        cfg_file = argv[2];
+
+        weights_file = argv[3];
+        filename = argv[4];
+    }
+
+    int const skip_rate = (argc > 5) ? std::stof(argv[5]) : 3;
+    float const thresh = (argc > 6) ? std::stof(argv[5]) : 0.2;
     std::cout << filename << std::endl;
-    float const thresh =  0.2;
-
     Detector detector(cfg_file, weights_file);
     std::cout << "weights are loaded" << std::endl;
     auto obj_names = objects_names_from_file(names_file);
